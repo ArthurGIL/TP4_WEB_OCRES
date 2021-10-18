@@ -28,6 +28,28 @@
   color: #61dafb;
 }
 
+Button {
+  background: #ffffff;
+    padding: .625rem 1.75rem;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    width: 10%;
+    font-size: 1.25rem;
+    border: .125rem solid #000000;
+    transition: all 0.1s;
+    border-radius: .3125rem;
+    margin-left: .625rem;
+    margin-right: .625rem;
+    margin-top: .625rem;
+    float: right;
+}
+Button:hover {
+  background: black;
+    color: #ffffff;
+    transition: all 0.1s;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Text from './text.js';
+import Button from './button.js';
 
 function App() {
   return (
     <div class="App">
-      <Text text="Hello"/>
-      <Text text="World"/>
+      <Button button="Claude" onClick=""/>
+      <Button button="Martine" onClick=""/>
+      <Button button="Jeanne" onClick=""/>
     </div>
   );
 }
